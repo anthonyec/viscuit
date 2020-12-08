@@ -1,0 +1,86 @@
+{
+  "stage": [],
+  "base": "00300013:1-1",
+  "type": "viscuit",
+  "version": "5.1",
+  "picts": [],
+  "rules": [
+    {
+      "x": 196.73,
+      "body": [],
+      "head": [
+        {
+          "id": 3,
+          "x": 45.86,
+          "type": "dparts",
+          "value": 13,
+          "y": 52.16
+        },
+        {
+          "id": 3,
+          "x": 72.13,
+          "type": "dparts",
+          "value": 18,
+          "y": 75.97
+        },
+        {
+          "id": 3,
+          "x": 103.15,
+          "type": "dparts",
+          "value": 15,
+          "y": 52.09
+        },
+        {
+          "id": 3,
+          "x": 104.13,
+          "type": "dparts",
+          "value": 17,
+          "y": 97.9
+        }
+      ],
+      "type": "rule",
+      "y": 135.46
+    },
+    {
+      "x": 184.43,
+      "body": [],
+      "head": [
+        {
+          "id": 1,
+          "x": 54.59,
+          "type": "dparts",
+          "value": -1,
+          "y": 73.55
+        },
+        {
+          "id": 1,
+          "x": 95.4,
+          "type": "dparts",
+          "value": -1,
+          "y": 76.44
+        }
+      ],
+      "type": "rule",
+      "y": 294.23
+    },
+    {
+      "id": 1,
+      "x": 505.05,
+      "type": "dparts",
+      "value": -1,
+      "y": 244.57
+    }
+  ],
+  "view": {
+    "grid": 0,
+    "ivloop": 0,
+    "hasrotatebtn": true,
+    "speed": 400,
+    "dynamic": true,
+    "type": "view",
+    "c2": 16646103,
+    "ihloop": 0,
+    "c1": 16646103
+  },
+  "machine": "20201208143403978907653"
+}

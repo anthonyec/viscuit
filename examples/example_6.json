@@ -1,0 +1,149 @@
+{
+  "stage": [],
+  "base": "00300013:1-1",
+  "type": "viscuit",
+  "version": "5.1",
+  "picts": [],
+  "rules": [
+    {
+      "x": 328.67,
+      "body": [],
+      "head": [
+        {
+          "id": 1,
+          "x": 75,
+          "type": "dparts",
+          "value": -1,
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 87.38
+    },
+    {
+      "x": 335.38,
+      "body": [],
+      "head": [
+        {
+          "id": 3,
+          "x": 75,
+          "type": "dparts",
+          "value": 15,
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 397.1
+    },
+    {
+      "x": 338.73,
+      "body": [
+        {
+          "id": 3,
+          "x": 75.56,
+          "type": "dparts",
+          "value": 17,
+          "y": 74.6
+        }
+      ],
+      "head": [
+        {
+          "id": 3,
+          "x": 74.43,
+          "type": "dparts",
+          "value": 17,
+          "y": 75.39
+        }
+      ],
+      "type": "rule",
+      "y": 239.45
+    },
+    {
+      "x": 317.49,
+      "body": [],
+      "head": [
+        {
+          "id": 3,
+          "x": 75,
+          "type": "dparts",
+          "value": 13,
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 553.63
+    },
+    {
+      "x": 315.25,
+      "body": [],
+      "head": [
+        {
+          "id": 3,
+          "x": 75,
+          "type": "dparts",
+          "value": 11,
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 715.76
+    },
+    {
+      "x": 316.37,
+      "body": [],
+      "head": [
+        {
+          "id": 3,
+          "x": 75,
+          "type": "dparts",
+          "value": 10,
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 868.94
+    },
+    {
+      "x": 306.31,
+      "body": [],
+      "head": [
+        {
+          "id": 3,
+          "x": 75,
+          "type": "dparts",
+          "value": 8,
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 1028.83
+    },
+    {
+      "x": 276.12,
+      "body": [],
+      "head": [
+        {
+          "id": 3,
+          "x": 75,
+          "type": "dparts",
+          "value": 6,
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 1185.56
+    }
+  ],
+  "view": {
+    "grid": 0,
+    "ivloop": 0,
+    "hasrotatebtn": true,
+    "speed": 400,
+    "dynamic": true,
+    "type": "view",
+    "c2": 16646103,
+    "ihloop": 0,
+    "c1": 16646103
+  },
+  "machine": "20201208143403978907653"
+}
