@@ -1,0 +1,115 @@
+{
+  "__CUSTOM:URL": "https://develop.viscuit.com/env2/view.html?control=edit%3A00320001%3Abase.json%3A%3Ahttps%253A%252F%252Fdevelop.viscuit.com%252Fenv3%252Flistws.html%253Fenv%253D00320001%2526title%253D%2525E3%252581%2525BF%2525E3%252581%2525A9%2525E3%252582%25258A%2525E3%252581%2525AF%2525E3%252582%252589%2525E3%252581%2525A3%2525E3%252581%2525B1%2526ret%253Dhttps%25253A%25252F%25252Fdevelop.viscuit.com%25252Fenv%25252Fpublicarea.html",
+  "type": "viscuit",
+  "version": "6.0",
+  "machine": "060959014842790",
+  "stage": [
+    {
+      "type": "vispict",
+      "name": "P2121",
+      "x": 167.21702543218086,
+      "y": 326.3727493351064,
+      "rotation": 0
+    }
+  ],
+  "rules": [
+    {
+      "type": "rule",
+      "x": 224.40854388297868,
+      "y": 145.42978723404255,
+      "head": [
+        {
+          "type": "vispict",
+          "name": "P2121",
+          "x": 72.30131963039034,
+          "y": 89.6426275099734,
+          "rotation": 0
+        },
+        {
+          "type": "dparts",
+          "id": 1,
+          "x": 86.16511273330653,
+          "y": 60,
+          "rotation": 0
+        }
+      ],
+      "body": [
+        {
+          "type": "vispict",
+          "name": "P1368",
+          "x": 74.05687208574761,
+          "y": 98.46643236369688,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "x": 183.55748005319143,
+      "y": 355.1319315159575,
+      "head": [
+        {
+          "type": "vispict",
+          "name": "P1368",
+          "x": 69.68904682750755,
+          "y": 80.04428856382982,
+          "rotation": 0
+        }
+      ],
+      "body": [
+        {
+          "type": "vispict",
+          "name": "P1368",
+          "x": 70.35524173632227,
+          "y": 60,
+          "rotation": 0
+        }
+      ]
+    }
+  ],
+  "picts": [
+    {
+      "type": "picture",
+      "name": "P1368",
+      "base64": "eJw9T8tNBTEM9Nj57FsQRSDunDi/O8VQA1VQGQVQAEJcuG3sN05WaDRje5I49rO82uf1XUTi4/cJom5hjii+j+7di1fvo7Iu0YatSNIP3owSlZUSECQn4uvtKjpRFmBSqQ07LmhS9V66bKjYdZOOjjvdcCE3PFB3xi5NGja+qyjMjX2Sma2+9u9x8PPriZD4+XsJcBkOtQZ0rsZ1qINwPcrRWNE5yqAOXT6Xz7t8F+LKThlnlczePrOVnxjfj/NjTEJXVEtRhVHoMV/neZz1vHY6+f4GjyJhYQ=="
+    },
+    {
+      "type": "picture",
+      "name": "P2121",
+      "base64": "eJx1ULtSxDAMXDmvuwnHUFFQQMtfUN5v8csMkIfjRLdrJzTA7OgRZbWy9IrHl+ntHcBGuwL2THtChZbW45RxjzPR24V5R6vRoHq4VDlpXLEmvcuZIqsktpnceWk64w4n5spy3Tpya7Ia9VvplVKWL6r0jPSBMAQ3+t+AExuSLx63waNHRP+mX7D4wjxhReLXSpBHO6A+Vk35XidbVfesK+ksz/KCiTbazBgxYqCPvpFziO1kYTVNK3M1OZFc3qE3CGueo7Z/UAKXokDy0SefMePDh5x9YtpYl+DO1Imsttba0IfWGh2VXzqizvcDkwVW/zpm0N+DRVVL+Mr7cnNOj/sKWkILiCF/A9myu5E="
+    }
+  ],
+  "bg": [
+    12189600,
+    12189600
+  ],
+  "option": {
+    "type": "view",
+    "c2": 12189600,
+    "speed": 400,
+    "dynamic": true,
+    "grid": 0,
+    "ivloop": 0,
+    "hidetools": {},
+    "ihloop": 0,
+    "c1": 12189600,
+    "hasrotatebtn": true,
+    "width": 512,
+    "height": 384
+  },
+  "view": {
+    "type": "view",
+    "c2": 12189600,
+    "speed": 400,
+    "dynamic": true,
+    "grid": 0,
+    "ivloop": 0,
+    "hidetools": {},
+    "ihloop": 0,
+    "c1": 12189600,
+    "hasrotatebtn": true,
+    "width": 512,
+    "height": 384
+  },
+  "base": "base"
+}
