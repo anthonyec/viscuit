@@ -183,8 +183,8 @@ declare interface ViscuitFile {
       /** Unknown - file version or app version? */
       version: number;
 
-      /** TBC - Maximum number of objects allow on the stage */
-      maxobj: number;
+      /** TBC - Maximum number of objects allow on the stage - might be 5.0 */
+      maxobj?: number;
 
       /** Stage width */
       width: number;
