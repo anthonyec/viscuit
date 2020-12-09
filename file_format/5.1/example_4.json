@@ -1,0 +1,42 @@
+{
+  "stage": [],
+  "base": "00300013:1-1",
+  "type": "viscuit",
+  "version": "5.1",
+  "picts": [
+    {
+      "base64": "eNodxUsKwjAUBdD78vJpBTN0A04KLqJb6 4KLkNwmIEQIvI VeQMzgX70tYNwNHuN2GLmnX24mfUUGlOp1hSCpxjpkL5mOz6KK84uKP7MNGPiIra820QMig56Y8FC8r H1/9IC2I",
+      "type": "picture",
+      "name": "P0"
+    }
+  ],
+  "rules": [
+    {
+      "x": 265.59,
+      "body": [],
+      "head": [
+        {
+          "rotation": 0,
+          "x": 75,
+          "type": "vispict",
+          "name": "P0",
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 138.19
+    }
+  ],
+  "view": {
+    "grid": 0,
+    "ivloop": 0,
+    "hasrotatebtn": true,
+    "speed": 400,
+    "dynamic": true,
+    "type": "view",
+    "c2": 16646103,
+    "ihloop": 0,
+    "c1": 16646103
+  },
+  "machine": "20191124105129571447673"
+}

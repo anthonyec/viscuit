@@ -1,0 +1,43 @@
+{
+  "stage": [],
+  "base": "00320001:base.json",
+  "type": "viscuit",
+  "version": "5.1",
+  "picts": [
+    {
+      "base64": "eNqTYPjCKWXfwMDA8H/nPm52dl4eYT5 HnEBUUFhXi4OLg42Vibmf0DZswwMjDpAmp/hH M/lp9s37g/cn8Wei30jvMb5ze2n8y/mP4y/2H8xwAAvSIWXw: =",
+      "type": "picture",
+      "name": "P0"
+    }
+  ],
+  "rules": [
+    {
+      "x": 202.53,
+      "body": [],
+      "head": [
+        {
+          "rotation": 0,
+          "x": 75,
+          "type": "vispict",
+          "name": "P0",
+          "y": 75
+        }
+      ],
+      "type": "rule",
+      "y": 142.71
+    }
+  ],
+  "view": {
+    "grid": 0,
+    "type": "view",
+    "hasrotatebtn": true,
+    "speed": 400,
+    "dynamic": true,
+    "hidetools": {},
+    "ivloop": 0,
+    "c2": 12189600,
+    "ihloop": 0,
+    "c1": 12189600
+  },
+  "machine": "20191124105129571447673"
+}

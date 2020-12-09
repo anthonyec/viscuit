@@ -39,6 +39,10 @@ declare enum GridSize {
   VeryLarge = 42
 }
 
+declare enum ViewType {
+  View = "view"
+}
+
 /** The higher the number the slower the speed. Acts as a delay between steps */
 declare enum SimulationSpeed {
   VerySlow = 900,
@@ -81,15 +85,31 @@ declare interface Rule {
   body: VObject[];
 }
 
+declare interface PictJSON {
+  points: number[],
+  psize: number;
+  pcolor: number;
+  palpha: number;
+}
+
 declare interface Pict {
+  /** Identifier used for referencing grapics */
+  name: string;
+
   /** Unknown - seems to be an base64 encoded and compressed graphic, still unsure how to decode correctly */
-  base64: string;
+  base64?: string;
+
+  /** Unknown - why and when this is used, seems to be a vector or if the pict is simple? */
+  json?: PictJSON[]
 
   /** Unknown */
   type: PictType;
 
-  /** Identifier used for referencing grapics */
-  name: string;
+  /** Unknwon */
+  info?: {
+    visible: number;
+    draggable: number;
+  }
 }
 
 declare interface ViscuitFile {
@@ -110,10 +130,10 @@ declare interface ViscuitFile {
 
   /** Editor settings */
   view: {
-      /** Unknown */
+      /** Unknown - something to do with how objects wrap vertically */
       ivloop: number;
 
-      /** Unknown  */
+      /** Unknown - something to do with how objects wrap horizontally */
       ihloop: number;
 
       /** Rotate instead of transforming objects on the stage */
@@ -123,13 +143,25 @@ declare interface ViscuitFile {
       grid: GridSize;
 
       /** Unknown */
-      type: string;
+      type: ViewType;
 
       /** Unknown */
       dynamic: boolean;
 
       /** Unknown */
-      hidetools: object;
+      hidetools: {
+        /** Unknown */
+        tone?: boolean;
+
+        /** Unknown */
+        touch?: boolean;
+
+        /** Unknown */
+        setting?: boolean,
+
+        /** Unknown */
+        pause?: boolean
+      };
 
       /** Simulation speed */
       speed: SimulationSpeed;
@@ -151,11 +183,23 @@ declare interface ViscuitFile {
 
       /** Unknown - seems like a modified date */
       c2: number;
+
+      /** Unknown */
+      angleratio?: number
+
+      /** Unknown */
+      angleunit?: 1;
+
+      /** Unknown */
+      showanglenumber?: boolean;
+
+      /** Unknown */
+      ruleedit?: true;
   }
 
   /** Pict definitions */
   picts: Pict[];
 
-  /** Interaction rules for glasses / lenses */
-  rules: Rule[];
+  /** Objects or rules placed in the rules area */
+  rules: Rule[] | VObject[];
 }

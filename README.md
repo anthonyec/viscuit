@@ -1,6 +1,9 @@
 # Viscuit (ビスケット)
 
+⚠️ This is research based on using translation tools
+
 ![](images/viscuitlandmovie2.gif)
+[Play with tool](https://develop.viscuit.com/env/publicarea.html)
 
 - What is viscuit
 - What is this repo for
@@ -49,6 +52,10 @@ NTT research based on the concept of "anyone can experience programming and unde
 - iOS apps
 - [Viscuit JSON file](#file-format)
 
+## Using the tool
+
+- Link to how to use
+
 ## Examples
 
 - Games
@@ -63,6 +70,20 @@ NTT research based on the concept of "anyone can experience programming and unde
 - [Viscuit Homepage](https://www.viscuit.com/)
 - Social media accounts that post Viscuit content
 - Tutorials
+
+## Future after Flash depreication
+
+> New biscuits can be used without using flash. Here, I will tell you how to create a work with new biscuits, in addition to the "try it" and "play alone" that are currently open to the public.
+
+> <Information> Due
+to the transition to the new biscuit service, works created after November 1, 2020 in the "Harappa" environment stored on the old server will have a storage period of one month. Please note that even if the work is made with the new biscuit that we are introducing this time, the work made in the "Harappa" environment will be saved on the old server, so the storage period will be one month as well.
+A new app that allows you to manage your work will be released at a later date. We are planning to open a work posting site with new functions, so please continue to enjoy biscuits.
+
+https://www.viscuit.com/harappainfo/
+
+Harappa (はらっぱ)
+
+- Unknown what will happen
 
 ## Glossary
 

@@ -1,0 +1,21 @@
+{
+  "stage": [],
+  "picts": [],
+  "base": "00000000:11-1",
+  "rules": [],
+  "type": "viscuit",
+  "version": "5.0",
+  "machine": "20200302042207797808026",
+  "view": {
+    "type": "view",
+    "c2": 12189600,
+    "speed": 400,
+    "dynamic": true,
+    "grid": 0,
+    "ivloop": 0,
+    "hidetools": {},
+    "ihloop": 0,
+    "c1": 12189600,
+    "hasrotatebtn": true
+  }
+}
