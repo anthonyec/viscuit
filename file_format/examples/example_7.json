@@ -1,0 +1,26 @@
+{
+  "stage": [],
+  "base": "00300013:1-1",
+  "type": "viscuit",
+  "version": "5.1",
+  "picts": [
+    {
+      "base64": "eNoTZeDN/WXfwMDA8P/3Jfa/7P85/wr942MQZRBi4mYAAJ4dCXc: ",
+      "type": "picture",
+      "name": "P0"
+    }
+  ],
+  "rules": [],
+  "view": {
+    "grid": 0,
+    "ivloop": 0,
+    "hasrotatebtn": true,
+    "speed": 400,
+    "dynamic": true,
+    "type": "view",
+    "c2": 16646103,
+    "ihloop": 0,
+    "c1": 16646103
+  },
+  "machine": "20201208143403978907653"
+}

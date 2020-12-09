@@ -51,6 +51,20 @@ declare enum SimulationSpeed {
   VeryFast = 300
 }
 
+declare enum WrapBoundSize {
+  /** About 50% */
+  HalfObject = 0,
+
+  /** Object wraps when it's one whole of an object size out of bounds. Depending on speed this can look less */
+  SingleObject = 1,
+
+  /** Object wraps when it's about double an object size out of bounds */
+  DoubleObject = 2,
+
+  /** Object never wraps */
+  NoWrap = -1
+}
+
 declare interface VObject {
   /** Horizontal position */
   x: number;
@@ -96,16 +110,16 @@ declare interface Pict {
   /** Identifier used for referencing grapics */
   name: string;
 
-  /** Unknown - seems to be an base64 encoded and compressed graphic, still unsure how to decode correctly */
+  /** TBC - seems to be an base64 encoded and compressed graphic, still unsure how to decode correctly */
   base64?: string;
 
-  /** Unknown - why and when this is used, seems to be a vector or if the pict is simple? */
+  /** TBC - why and when this is used, seems to be a vector or if the pict is simple? */
   json?: PictJSON[]
 
-  /** Unknown */
+  /** TBC - Type of Pict */
   type: PictType;
 
-  /** Unknwon */
+  /** Unknown */
   info?: {
     visible: number;
     draggable: number;
@@ -113,10 +127,10 @@ declare interface Pict {
 }
 
 declare interface ViscuitFile {
-  /** File version */
+  /** TBC - File version */
   version: string;
 
-  /** Unknown */
+  /** TBC - Project ID file is based on */
   base: string;
 
   /** Unknown */
@@ -125,21 +139,21 @@ declare interface ViscuitFile {
   /** Initial stage state with objects in starting positions */
   stage: VObject[];
 
-  /** File type */
+  /** TBC - File type or app used to create file */
   type: FileType;
 
-  /** Editor settings */
+  /** Stage view settings */
   view: {
-      /** Unknown - something to do with how objects wrap vertically */
-      ivloop: number;
+      /** Bounds size at which an object should wrap vertically */
+      ivloop: WrapBoundSize;
 
-      /** Unknown - something to do with how objects wrap horizontally */
-      ihloop: number;
+      /** Bounds size at which an object should wrap horizontally */
+      ihloop: WrapBoundSize;
 
       /** Rotate instead of transforming objects on the stage */
       hasrotatebtn: boolean;
 
-      /** Size of the grid */
+      /** Size of the grid, this also affect simulation movememnt */
       grid: GridSize;
 
       /** Unknown */
@@ -166,10 +180,10 @@ declare interface ViscuitFile {
       /** Simulation speed */
       speed: SimulationSpeed;
 
-      /** Unknown */
+      /** Unknown - file version or app version? */
       version: number;
 
-      /** Maximum number of objects allow on the stage (?) */
+      /** TBC - Maximum number of objects allow on the stage */
       maxobj: number;
 
       /** Stage width */
@@ -178,10 +192,10 @@ declare interface ViscuitFile {
       /** Stage heught */
       height: number;
 
-      /** Unknown - seems like a creation date */
+      /** Top color in background gradient in decimal format  */
       c1: number;
 
-      /** Unknown - seems like a modified date */
+      /** Bottom color in background gradient in decimal format */
       c2: number;
 
       /** Unknown */
